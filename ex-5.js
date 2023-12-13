@@ -1,5 +1,6 @@
-function sum() {
+function sum(...number) {
   // Start coding here !
+  return number;
 }
 
 let result1 = sum(1, 2, 3, 4, 5, 6, 7, 8);
